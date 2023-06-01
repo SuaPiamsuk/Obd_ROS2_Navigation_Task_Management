@@ -22,3 +22,6 @@ ros2 launch obd_navigation slam.launch.py
 ```
 ros2 launch obd_navigation navigation2.launch.py
 ```
+
+wait at waypoint?
+https://navigation.ros.org/configuration/packages/configuring-waypoint-follower.html
