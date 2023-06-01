@@ -2,7 +2,7 @@
 
 ## System requirement
 1. Ubuntu 20.04
-2. Ros2 Foxy
+2. ROS2 Foxy
 
 ## Quick start
 1. spawn robot(Turtlebot3) in 35 x 35 m^2
