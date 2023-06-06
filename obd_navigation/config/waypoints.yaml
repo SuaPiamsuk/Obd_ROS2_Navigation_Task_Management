@@ -1,0 +1,15 @@
+wait_at_waypoint: 3 #seconds
+
+waypoint: # meter unit
+  - point: #waypoint 1
+      x: 1.0
+      y: 1.0
+      theta: 0.0
+  - point: #waypoint 2
+      x: 2.0
+      y: 0.0
+      theta: -1.57
+  - point: #waypoint 3
+      x: 3.0
+      y: -1.0
+      theta: 3.14
