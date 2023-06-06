@@ -23,6 +23,12 @@ ros2 launch obd_navigation slam.launch.py
 ros2 launch obd_navigation navigation2.launch.py
 ```
 
+5. send goal from file
+
+```
+ros2 run obd_navigation cmd_nav2.py
+```
+
 4. service call
 
 ```
