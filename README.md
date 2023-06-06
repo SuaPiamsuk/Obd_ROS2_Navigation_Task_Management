@@ -32,7 +32,7 @@ ros2 run obd_navigation cmd_nav2.py
 4. service call
 
 ```
-ros2 service call /send_goal_nav2 obd_interfaces/srv/Goal "{x: 3.0,y: 0.0,theta: 2.0}"
+ros2 service call /send_goal_nav2 obd_interfaces/srv/Goal "{x: 1.0,y: 0.0,theta: 3.14}"
 ```
 
 wait at waypoint?
