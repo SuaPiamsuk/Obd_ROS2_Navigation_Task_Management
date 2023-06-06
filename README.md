@@ -23,5 +23,11 @@ ros2 launch obd_navigation slam.launch.py
 ros2 launch obd_navigation navigation2.launch.py
 ```
 
+4. service call
+
+```
+ros2 service call /send_goal_nav2 obd_interfaces/srv/Goal "{x: 3.0,y: 0.0,theta: 2.0}"
+```
+
 wait at waypoint?
 https://navigation.ros.org/configuration/packages/configuring-waypoint-follower.html
