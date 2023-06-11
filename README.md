@@ -34,6 +34,3 @@ ros2 run obd_navigation cmd_nav2.py
 ```
 ros2 service call /send_goal_nav2 obd_interfaces/srv/Goal "{x: 1.0,y: 0.0,theta: 3.14}"
 ```
-
-wait at waypoint?
-https://navigation.ros.org/configuration/packages/configuring-waypoint-follower.html
